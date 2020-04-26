@@ -1,0 +1,50 @@
+/* Untuk Tablet */
+
+@media all and (max-width: 1000px) {
+    .heading {
+        width: max-content;
+        font-size: 70px;
+        letter-spacing: 5px;
+        line-height: 140px;
+    }
+    .paragraf {
+        width: 150%;
+    }
+    .slide-gambar {
+        display: none;
+    }
+}
+
+
+/*  Untuk Smartphone */
+
+@media all and (max-width: 670px) {
+    .heading {
+        width: max-content;
+        font-size: 40px;
+        width: 100%;
+        line-height: 80px;
+    }
+    .paragraf {
+        margin-top: -20px;
+        font-size: 14px;
+    }
+    .gambar img {
+        display: none;
+        width: 0%;
+    }
+    .judul a {
+        display: inline-block;
+        padding: 10px 15px;
+        margin-top: 40px;
+        margin-left: 80px;
+        border-radius: 3px;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        background-color: #000;
+        font-weight: 400;
+        color: white;
+        letter-spacing: 2px;
+        text-decoration: none;
+    }
+}
